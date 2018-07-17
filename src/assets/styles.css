@@ -1,0 +1,7 @@
+.item{
+    margin: 8px;
+    display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+    display: block;
+  }

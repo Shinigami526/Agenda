@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can add new items 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "",
+      "name": "Book of G.K Chesterton",
+      "number": "0111565225",
+      "summary": "Chronicles of Narnia",
+      "text": "Box Set - C.S Lewis",
+    },
+  ],
+}
+`;
+
+exports[`can add new items 2`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "Chesterton",
+        "number": "0111565225",
+        "summary": "Chronicles of Narnia",
+        "text": "Box Set - C.S Lewis",
+      },
+    ],
+  },
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "Book of G.K Chesterton",
+        "number": "0111565225",
+        "summary": "Chronicles of Narnia",
+        "text": "Box Set - C.S Lewis",
+      },
+    ],
+  },
+]
+`;
