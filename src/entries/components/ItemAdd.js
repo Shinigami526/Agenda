@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { observer } from 'mobx-react'
 import ItemEdit from './ItemEdit'
-import { WishListItem } from '../models/WishList'
+import { WishListItem } from '../../models/WishList'
 // Materia ui
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
@@ -11,7 +11,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import Slide from '@material-ui/core/Slide';
 import AddIcon from '@material-ui/icons/Add';
 import Button from '@material-ui/core/Button';
-import '../assets/add.css'
+import '../../assets/css/add.css'
 
 function Transition(props) {
 	return <Slide direction="up" {...props} />;

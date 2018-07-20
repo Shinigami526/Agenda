@@ -1,6 +1,6 @@
 import React,{ Component } from "react"
 import { observer } from 'mobx-react'
-import "../assets/form.css"
+import "../../assets/css/form.css"
 
 class ItemEdit extends Component {
     render () {

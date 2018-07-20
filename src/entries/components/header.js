@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import View  from './view'
 // Materia iu 
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
@@ -22,7 +21,7 @@ const styles = {
   },
 };
 
-class App extends Component {
+class Header extends Component {
   render() {
     const { classes } = this.props;
     return (
@@ -42,17 +41,14 @@ class App extends Component {
         </AppBar>
       </div>
         </header>
-        <section>
-        <View wishList={this.props.wishList} />
-        </section>
       </Grid>
       </div>
     );
   }
 }
 
-App.propTypes = {
+Header.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default  withStyles(styles)(App);
+export default  withStyles(styles)(Header);

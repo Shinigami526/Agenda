@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/index.css';
-import App from './components/App';
+import './assets/css/index.css';
+import View from './entries/container/view';
 import registerServiceWorker from './registerServiceWorker';
 import { Wishlist } from './models/WishList'
 import { getSnapshot } from 'mobx-state-tree'
@@ -29,7 +29,7 @@ let wishList = Wishlist.create(initialState)
 
 
 function renderApp(){
-ReactDOM.render(<App wishList={wishList}/>, document.getElementById('root'));
+ReactDOM.render(<View wishList={wishList}/>, document.getElementById('root'));
 registerServiceWorker();
 }
 //  EXAMPLE NODEMON
